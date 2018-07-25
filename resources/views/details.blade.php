@@ -7,15 +7,22 @@
       <a class="nav-link btn-red btn-center float-right" href=""><i class="fa fa-shopping-cart"></i>&nbsp; Cart</a>
     </div>
   </div>
-
-  <div class="content d-content">
-    <form action="" method="post" class="form_details">
+<form action="" method="post" class="form_details">
+  <div class="content d-content" style="margin:0;">
       @include('design')
       <hr>
       @include('cdetails')
       <hr>
       @include('send')
-    </form>
   </div>
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn-border btn-center" href="">ADD TO CART</a>
+    </div>
+    <div class="col-md-6">
+      <a class="btn-red btn-center" href="">CONFIRM AND CHECKOUT</a>
+    </div>
+  </div>
+  </form>
 </div>
 @stop

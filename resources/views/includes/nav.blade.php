@@ -10,16 +10,16 @@
         <ul class="navbar-nav mr-auto"> </ul>
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" href="{{ url('/') }}">Home</a>
+                <a class="nav-link active home" href="{{ url('/') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('/login') }}">Login</a>
+                <a class="nav-link login" href="{{ url('/login') }}">Login</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('/login') }}">Contact Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn-border" href="{{ url('/card/details') }}">Send A Gift Card</a>
+                <a class="nav-link btn-border details" href="{{ url('/card/details') }}">Send A Gift Card</a>
             </li>
         </ul>
     </div>

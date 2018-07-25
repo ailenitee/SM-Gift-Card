@@ -55,11 +55,12 @@
     font-size: 15px;
   }
   .btn-secondary{
-    background-color: $darkheadertext;
-    border-color: $headertext;
+    color: #444;
+    border-color: $darkheadertext;
+    background-color: transparent;
     &.active{
-      background-color: $button!important;
-      border-color: $headertext!important;
+      color: #fff!important;
+      background-color: $darkheadertext;
     }
   }
 }

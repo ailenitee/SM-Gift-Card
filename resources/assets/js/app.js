@@ -38,4 +38,11 @@ $(function() {
     window.location.href = '/card/details';
     return false;
   });
+  if(window.location.href.indexOf("login") > -1) {
+    $('.nav-link').removeClass('active');
+    $('.login').addClass('active');
+  }else{
+    $('.nav-link').removeClass('active');
+    $('.home').addClass('active');
+  }
 });

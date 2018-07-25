@@ -55,11 +55,5 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-6">
-    <a class="btn-border btn-center" href="">ADD TO CART</a>
-  </div>
-  <div class="col-md-6">
-    <a class="btn-red btn-center" href="">CONFIRM AND CHECKOUT</a>
-  </div>
+  </div> 
 </div>

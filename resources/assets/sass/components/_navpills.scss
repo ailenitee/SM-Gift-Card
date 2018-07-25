@@ -31,15 +31,18 @@
       width: 58px;
       line-height: 38px;
       height: 58px;
-      background-color: $darkheadertext;
+      border: 1px solid #444;
       i{
-        color: #fff!important;
+        color: #444!important;
       }
       &.active{
-        background-color: $button;
+        background-color: $gray!important;
+        i{
+          color: #fff!important;
+        }
       }
       &:hover{
-        background-color: $darkheadertext!important;
+        color: $darkheadertext!important;
       }
     }
   }
