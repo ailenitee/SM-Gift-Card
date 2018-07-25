@@ -22,11 +22,11 @@
         <div class="row">
           <div class="col-md-4">
             <div class="login-box-left">
-              <h2 class="text-center">lorem ipsum</h2>
-              <!-- <h4>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </h4> -->
+              <img src="{{URL::asset('/img/logo.png')}}" style="width:100%;">
+              <br><br>
+              <h2 class="text-center">SIGN UP NOW <br><br> and <br><br> Create your own personalized Gift Card!</h2>
+              <br><br>
+              <a class="nav-link btn-red btn-full" href="{{ url('/card/details') }}">Register Now</a>
           </div>
         </div>
         <div class="col-md-8">
