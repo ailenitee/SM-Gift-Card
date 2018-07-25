@@ -1,0 +1,34 @@
+textarea{
+  resize: none;
+}
+input,.input-group-text, .form-control{
+  font-size: 13px;
+}
+.form_details{
+  img{
+    border: 1px solid #fdfdff;
+  }
+  h4{
+    margin-top: 10px;
+  }
+  a{
+    margin-top: 30px;
+  }
+}
+.login_form{
+  width: 80%;
+  display: block;
+    margin: 0 auto;
+  form{
+    margin: 15px auto;
+    .form-control{
+      border: none;
+      border-bottom: 1px solid $darkheadertext;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    a{
+      margin-top: 30px;
+    }
+  }
+}

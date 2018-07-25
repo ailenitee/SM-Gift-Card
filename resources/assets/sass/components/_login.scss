@@ -1,0 +1,51 @@
+.login-content{
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  .blur{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1509252054023-980dd0df5222?ixlib=rb-0.3.5…EyMDd9&s=e2e4c3f…&auto=format&fit=crop&w=1189&q=80);
+    -webkit-filter: blur(5px);
+    background-size: cover;
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(15px);
+    z-index: 1;
+    width: 100%;
+    transform: scale(1.1);
+    position: absolute;
+  }
+  .login-box{
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    .row{
+      margin: 0;
+    }
+    .col-md-4,.col-md-8{
+      padding: 0;
+    }
+    .login-box-left{
+      background: #000;
+      // background: linear-gradient(to top, #f6eed6 0%, #9a162a 94%);
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      h2{
+        color: #fff;
+      }
+      h4{
+        color: #fff;
+      }
+    }
+    .login-box-right{
+      padding: 40px;
+      @extend .login_form;
+    }
+  }
+}
