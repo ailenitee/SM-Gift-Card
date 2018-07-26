@@ -4,7 +4,7 @@
   </div>
   <div class="col-md-6">
       <img src="http://via.placeholder.com/350x150" style='width:100%'>
-      <h4>Gift Card Name</h4>
+      <h4>Choose a theme</h4>
     </div>
   <div class="col-md-3"></div>
 </div>

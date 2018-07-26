@@ -16,46 +16,51 @@
 <body>
   @include('includes.nav')
   <div class="login-content">
-    <div class="blur"> </div>
-    <div class="container">
-      <div class="login-box">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="login-box-left">
-              <img src="{{URL::asset('/img/logo.png')}}" style="width:100%;">
-              <br><br>
-              <h2 class="text-center">SIGN UP NOW <br><br> and <br><br> Create your own personalized Gift Card!</h2>
-              <br><br>
-              <a class="nav-link btn-red btn-full" href="{{ url('/card/details') }}">Register Now</a>
+    <div class="login-content-box">
+      <div class="blur"> </div>
+      <div class="container">
+        <div class="login-box">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="login-box-left">
+                <img src="{{URL::asset('/img/logo.png')}}" style="width:100%;margin-top: 50px;">
+                <br>
+                <h2 class="text-center">Not a Member yet?</h2>
+                <br>
+                <div class="flex-end">
+                  <a class="nav-link btn-red btn-full btn-signup" href="#signup">Sign Up for Free</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="login-box-right">
+                <h2 class="text-center">Login</h2>
+                <form class="login_form" action="index.html" method="post">
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <a class="nav-link btn-border btn-center" href="">Login</a>
+                </form>
+                <br>
+                <h3 class="fancy"><span>Or</span></h3>
+                <br>
+                <a class="nav-link btn-fb" href="">Sign in with Facebook</a>
+                <br>
+                <a class="nav-link btn-g" href="">Sign in with Google</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="login-box-right">
-            <h2 class="text-center">Login</h2>
-            <form class="login_form" action="index.html" method="post">
-              <div class="form-group">
-                <label>Email</label>
-                <input type="email" class="form-control">
-              </div>
-              <div class="form-group">
-                <label>Password</label>
-                <input type="password" class="form-control">
-              </div>
-              <a class="nav-link btn-border btn-center" href="">Login</a>
-            </form>
-            <br>
-            <h3 class="fancy"><span>Or</span></h3>
-            <br>
-            <a class="nav-link btn-fb" href="">Sign in with Facebook</a>
-            <br>
-            <a class="nav-link btn-g" href="">Sign in with Google</a>
-          </div>
-        </div>
+        @include('signup')
       </div>
     </div>
+
   </div>
-</div>
-</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <!-- CORE BOOTSTRAP LIBRARY -->
 <script src="{{asset('js/bootstrap.js')}}"></script>

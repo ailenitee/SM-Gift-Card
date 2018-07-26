@@ -23,7 +23,7 @@ class HomeController extends Controller
     public function login()
     {
         return view('login');
-    }
+    } 
     /**
      * Show the form for creating a new resource.
      *

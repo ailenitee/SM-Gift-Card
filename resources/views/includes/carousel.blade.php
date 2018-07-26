@@ -7,19 +7,18 @@
     </ol> -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="overlay"></div>
+            <!-- <div class="overlay"></div> -->
             <img class="d-block w-100" src="{{URL::asset('/img/GiftCard/Section1/1.png')}}" alt="First slide">
         </div>
         <div class="carousel-item">
-            <div class="overlay"></div>
+
             <img class="d-block w-100" src="{{URL::asset('/img/GiftCard/Section1/2.png')}}" alt="2 slide">
         </div>
         <div class="carousel-item">
-            <div class="overlay"></div>
+
             <img class="d-block w-100" src="{{URL::asset('/img/GiftCard/Section1/3.png')}}" alt="3 slide">
         </div>
-        <div class="carousel-item">
-            <div class="overlay"></div>
+        <div class="carousel-item carousel_signup"> 
             <img class="d-block w-100" src="{{URL::asset('/img/GiftCard/Section1/4.png')}}" alt="4 slide">
             <!-- <div class="banner-text">
                 <a class="nav-link btn-border" href="">Send A Gift Card</a>

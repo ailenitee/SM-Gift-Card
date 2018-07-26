@@ -1,9 +1,9 @@
 <div class="row ">
   <div class="col-md-12">
-    <h2 class="text-center send-gift">Send Your Gift</h2>
+    <h2 class="text-center send-gift">Send Your Gift Card</h2>
   </div>
   <div class="col-md-offset-3 col-md-6">
-    <ul class="nav nav-pills mb-3 send-pills" id="pills-tab" role="tablist">
+    <!-- <ul class="nav nav-pills mb-3 send-pills" id="pills-tab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
           <i class="fas fa-at"></i>
@@ -54,6 +54,14 @@
           <input type="number" class="form-control">
         </div>
       </div>
+    </div> -->
+    <div class="form-group">
+      <label>Recipient's Email</label>
+      <input type="email" class="form-control">
     </div>
-  </div> 
+    <div class="form-group">
+      <label>Confirm Recipient's Email</label>
+      <input type="email" class="form-control">
+    </div>
+  </div>
 </div>

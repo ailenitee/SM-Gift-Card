@@ -10490,6 +10490,24 @@ a:hover {
   background-color: #fdfdff;
 }
 
+@media (max-width: 991px) {
+  #navbarNavDropdown {
+    z-index: 1;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff !important;
+    width: 100%;
+  }
+
+  #navbarNavDropdown .nav-link {
+    color: #fff !important;
+  }
+
+  #navbarNavDropdown .nav-link.btn-border {
+    color: #f2574f;
+  }
+}
+
 .nav-pills .nav-item .nav-link {
   color: #f2574f;
 }
@@ -10929,28 +10947,32 @@ input,
 }
 
 .login_form,
-.login-content .login-box .login-box-right {
+.login-content .login-box .login-box-right,
+.login-content .signup-box .login-box-right {
   width: 80%;
   display: block;
   margin: 0 auto;
 }
 
 .login_form form,
-.login-content .login-box .login-box-right form {
+.login-content .login-box .login-box-right form,
+.login-content .signup-box .login-box-right form {
   margin: 15px auto;
 }
 
 .login_form form .form-control,
-.login-content .login-box .login-box-right form .form-control {
+.login-content .login-box .login-box-right form .form-control,
+.login-content .signup-box .login-box-right form .form-control {
   border: none;
-  border-bottom: 1px solid #161d8e;
+  border-bottom: 1px solid #000;
   border-radius: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .login_form form a,
-.login-content .login-box .login-box-right form a {
+.login-content .login-box .login-box-right form a,
+.login-content .signup-box .login-box-right form a {
   margin-top: 30px;
 }
 
@@ -10963,8 +10985,7 @@ input,
 }
 
 .carousel-item .overlay {
-  height: 500px;
-  background-color: rgba(0, 0, 0, 0.3);
+  height: 550px;
   position: absolute;
   display: block;
   width: 100%;
@@ -11257,7 +11278,8 @@ input,
   position: absolute;
 }
 
-.login-content .login-box {
+.login-content .login-box,
+.login-content .signup-box {
   width: 100%;
   height: auto;
   margin: 30px auto;
@@ -11267,16 +11289,20 @@ input,
   z-index: 2;
 }
 
-.login-content .login-box .row {
+.login-content .login-box .row,
+.login-content .signup-box .row {
   margin: 0;
 }
 
 .login-content .login-box .col-md-4,
-.login-content .login-box .col-md-8 {
+.login-content .signup-box .col-md-4,
+.login-content .login-box .col-md-8,
+.login-content .signup-box .col-md-8 {
   padding: 0;
 }
 
-.login-content .login-box .login-box-left {
+.login-content .login-box .login-box-left,
+.login-content .signup-box .login-box-left {
   background: #000;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(http://glyphcards.test/img/GiftCard/Section1/1.png);
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://glyphcards.test/img/GiftCard/Section1/1.png);
@@ -11284,18 +11310,57 @@ input,
   width: 100%;
   height: 100%;
   padding: 20px;
+  display: inline-grid;
 }
 
-.login-content .login-box .login-box-left h2 {
+.login-content .login-box .login-box-left h2,
+.login-content .signup-box .login-box-left h2 {
   color: #fff;
 }
 
-.login-content .login-box .login-box-left h4 {
+.login-content .login-box .login-box-left h4,
+.login-content .signup-box .login-box-left h4 {
   color: #fff;
 }
 
-.login-content .login-box .login-box-right {
+.login-content .login-box .login-box-right,
+.login-content .signup-box .login-box-right {
   padding: 40px;
+}
+
+.login-content .signup-box {
+  padding: 40px;
+  width: 80%;
+}
+
+.login-content .signup-box input.btn-border {
+  background: transparent;
+  font-size: 15px;
+}
+
+.login-content .signup-box input.btn-border:hover {
+  color: #fff;
+  background: #f2574f;
+}
+
+.login-content .signup-box .custom-control-label::before,
+.login-content .signup-box .custom-control-label::after {
+  width: 18px;
+  height: 18px;
+}
+
+.login-content .signup-box .custom-control {
+  padding-left: 20px;
+}
+
+.login-content .signup-box .custom-control .custom-control-label {
+  padding-left: 20px;
+  font-size: 13px;
+  padding-top: 1px;
+}
+
+.modal.fade.show {
+  opacity: 1 !important;
 }
 
 .footer {

@@ -21,7 +21,7 @@
         margin: 10px 15px;
         padding: 10px 5px;
         color: $darkheadertext;
-        &.active{ 
+        &.active{
           border-bottom: 2px solid;
         }
       }
@@ -29,5 +29,21 @@
   }
   &.bg-gray{
     background-color: $lightnav;
+  }
+}
+@media( max-width : 991px ){
+  #navbarNavDropdown{
+    z-index: 1;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff!important;
+    width: 100%;
+    .nav-link{
+          color: #fff!important;
+          &.btn-border{
+            color: $button;
+          }
+    }
+
   }
 }

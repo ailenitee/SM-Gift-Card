@@ -27,7 +27,7 @@ input,.input-group-text, .form-control{
     margin: 15px auto;
     .form-control{
       border: none;
-      border-bottom: 1px solid $darkheadertext;
+      border-bottom: 1px solid #000;
       border-radius: 0;
       box-shadow: none;
     }
@@ -36,3 +36,7 @@ input,.input-group-text, .form-control{
     }
   }
 }
+// .signup-box{
+//   @extend .login_form;
+//   width: 100%;
+// }

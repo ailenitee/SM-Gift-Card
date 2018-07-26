@@ -35919,8 +35919,8 @@ window.Vue = __webpack_require__(36);
 //const app = new Vue({
 //    el: '#app'
 //});
-
 $(function () {
+  $('.signup-content-box').css('display', 'none');
   $('#detailModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus');
   });
@@ -35937,9 +35937,41 @@ $(function () {
     window.location.href = '/card/details';
     return false;
   });
+  $('.carousel_signup').click(function () {
+    $(this).css('cursor', 'pointer');
+    window.location.href = '/signup';
+    return false;
+  });
+  $('.btn-signup').click(function () {
+    $('.login-box').css('display', 'none');
+    $('.login-box').css('opacity', '0');
+    $('.signup-content-box').css('display', 'block');
+    $('.signup-content-box').css('opacity', '1');
+  });
+  $('.back_login').click(function () {
+    window.location.href.split('#')[0];
+    $('.login-box').css('display', 'block');
+    $('.login-box').css('opacity', '1');
+    $('.signup-content-box').css('display', 'none');
+    $('.signup-content-box').css('opacity', '0');
+  });
   if (window.location.href.indexOf("login") > -1) {
     $('.nav-link').removeClass('active');
     $('.login').addClass('active');
+    if (window.location.href.indexOf("signup") > -1) {
+      $('.login-box').css('display', 'none');
+      $('.login-box').css('opacity', '0');
+      $('.signup-content-box').css('display', 'block');
+      $('.signup-content-box').css('opacity', '1');
+    } else {
+      $('.login-box').css('display', 'block');
+      $('.login-box').css('opacity', '1');
+      $('.signup-content-box').css('display', 'none');
+      $('.signup-content-box').css('opacity', '0');
+    }
+  } else if (window.location.href.indexOf("card") > -1) {
+    $('.nav-link').removeClass('active');
+    $('.details').addClass('btn-red');
   } else {
     $('.nav-link').removeClass('active');
     $('.home').addClass('active');
