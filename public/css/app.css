@@ -10932,6 +10932,7 @@ input,
 
 .form_details img {
   border: 1px solid #fdfdff;
+  width: 100%;
 }
 
 .form_details h4 {
@@ -10944,6 +10945,16 @@ input,
 
 .form_details h2 {
   color: #000;
+}
+
+.form_details .themes {
+  margin-top: 15px;
+}
+
+.form_details .show-more {
+  background: none;
+  font-size: 15px;
+  color: #161d8e;
 }
 
 .login_form,
