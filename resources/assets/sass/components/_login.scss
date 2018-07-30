@@ -27,7 +27,7 @@
     margin: 30px auto;
     display: block;
     background: #fff;
-    position: relative; 
+    position: relative;
     .row{
       margin: 0;
     }
@@ -89,6 +89,10 @@
         padding-top: 1px;
       }
     }
+  }
+  .signup-content-box{
+    display: none;
+    opacity: 0;
   }
 }
 

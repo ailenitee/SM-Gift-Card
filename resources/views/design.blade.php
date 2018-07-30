@@ -59,7 +59,7 @@
       <input type="hidden" name="" value="" class="hidden_input">
       <input type="hidden" name="" value="" class="length">
       <div class="col-md-12">
-        <div class="text-right" style="margin-top:20px;">
+        <div class="text-right" style="margin:20px 0;">
           <div class="show-more">Show More...</div>
           <div class="show-less">Show Less...</div>
         </div>

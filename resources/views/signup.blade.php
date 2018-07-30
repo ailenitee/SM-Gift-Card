@@ -52,7 +52,7 @@
           <p>Already have an account?&nbsp;<a href="#" class="back_login"><b>Sign In</b></a></p>
         </div>
         <div class=" col-xs-12 col-md-4">
-          <input type="submit" value="Register" class="btn btn-border btn-center" tabindex="7">
+          <input type="submit" value="Register" class="btn btn-border btn-center" tabindex="7" style="width:100%;">
         </div>
       </div>
     </form>

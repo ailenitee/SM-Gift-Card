@@ -11238,7 +11238,7 @@ input,
 }
 
 .content.d-content .choose_btn {
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .content.d-content .choose_btn .btn {
@@ -11447,6 +11447,11 @@ input,
   padding-left: 20px;
   font-size: 13px;
   padding-top: 1px;
+}
+
+.login-content .signup-content-box {
+  display: none;
+  opacity: 0;
 }
 
 .modal.fade.show {

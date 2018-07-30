@@ -43,7 +43,7 @@ $(function() {
     $(this).css('cursor','pointer');
     window.location.href = '/signup';
     return false;
-  });
+  }); 
   $('.btn-signup').click(function() {
     $('.login-box').css('display','none');
     $('.login-box').css('opacity','0');
