@@ -11219,6 +11219,12 @@ input,
   max-height: 450px;
 }
 
+@media (max-width: 768px) {
+  .content.d-content #img-upload {
+    min-height: 300px;
+  }
+}
+
 .content.d-content .themes img {
   cursor: pointer;
 }
@@ -11237,6 +11243,10 @@ input,
 
 .content.d-content .choose_btn .btn {
   width: 100%;
+}
+
+.content.design_card h2 {
+  margin-bottom: 0;
 }
 
 .content .about .list {

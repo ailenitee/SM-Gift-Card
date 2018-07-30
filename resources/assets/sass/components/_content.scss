@@ -123,6 +123,9 @@
       min-height: 450px;
       object-fit: contain;
       max-height: 450px;
+      @media( max-width : 768px ){
+        min-height: 300px;
+      }
     }
     .themes{
       img{
@@ -140,6 +143,11 @@
       .btn{
         width: 100%;
       }
+    }
+  }
+  &.design_card{
+    h2{
+      margin-bottom: 0;
     }
   }
   .about{

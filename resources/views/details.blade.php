@@ -8,7 +8,7 @@
     </div>
   </div>
 <form action="" method="post" class="form_details">
-  <div class="content d-content" style="margin:0;">
+  <div class="content d-content design_card" style="margin:0;">
       @include('design')
       <hr>
       @include('cdetails')
