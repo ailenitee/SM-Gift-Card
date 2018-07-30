@@ -62,16 +62,19 @@ $(function() {
   if(window.location.href.indexOf("login") > -1) {
     $('.nav-link').removeClass('active');
     $('.login').addClass('active');
+    $('.details').removeClass('btn-red');
     if(window.location.href.indexOf("signup") > -1) {
       $('.login-box').css('display','none');
       $('.login-box').css('opacity','0');
       $('.signup-content-box').css('display','block');
       $('.signup-content-box').css('opacity','1');
+      $('.details').removeClass('btn-red');
     }else{
       $('.login-box').css('display','block');
       $('.login-box').css('opacity','1');
       $('.signup-content-box').css('display','none');
       $('.signup-content-box').css('opacity','0');
+      $('.details').removeClass('btn-red');
     }
   }else if(window.location.href.indexOf("card") > -1){
     $('.nav-link').removeClass('active');
@@ -79,8 +82,9 @@ $(function() {
   }
   var is_root = location.pathname == "/";
   if(is_root){
-    // $('.nav-link').removeClass('active');
+    $('.nav-link').removeClass('active');
     $('.home').addClass('active');
+    $('.details').removeClass('btn-red');
   }
 
   //////// show more and show less for design card
