@@ -10479,11 +10479,11 @@ a:hover {
   font-weight: 400;
   margin: 10px 15px;
   padding: 10px 5px;
-  color: #161d8e;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid #161d8e;
 }
 
 .navbar.bg-gray {
@@ -11201,6 +11201,44 @@ input,
   background-color: #fff;
 }
 
+.content.d-content .btn-outline-primary {
+  font-size: 15px;
+}
+
+.content.d-content .btn-outline-primary.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.content.d-content #img-upload {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 450px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 450px;
+}
+
+.content.d-content .themes img {
+  cursor: pointer;
+}
+
+.content.d-content .own {
+  margin-top: 10px;
+}
+
+.content.d-content .own span {
+  width: 100%;
+}
+
+.content.d-content .choose_btn {
+  margin-top: 10px;
+}
+
+.content.d-content .choose_btn .btn {
+  width: 100%;
+}
+
 .content .about .list {
   display: table;
   height: 100%;
@@ -11271,6 +11309,12 @@ input,
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .login-content {
+    height: auto;
+  }
+}
+
 .login-content .blur {
   height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1509252054023-980dd0df5222?ixlib=rb-0.3.5…EyMDd9&s=e2e4c3f…&auto=format&fit=crop&w=1189&q=80);
@@ -11337,6 +11381,13 @@ input,
 .login-content .login-box .login-box-right,
 .login-content .signup-box .login-box-right {
   padding: 40px;
+}
+
+@media (max-width: 768px) {
+  .login-content .login-box .login-box-right,
+  .login-content .signup-box .login-box-right {
+    padding: 10px;
+  }
 }
 
 .login-content .signup-box {

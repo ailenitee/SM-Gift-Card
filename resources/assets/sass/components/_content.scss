@@ -110,6 +110,37 @@
     margin: 30px 0;
     padding: 30px;
     background-color: #fff;
+    .btn-outline-primary{
+      font-size: 15px;
+      &.active{
+        background-color: #007bff;
+        color: #fff;
+      }
+    }
+    #img-upload{
+      width: 100%;
+      margin: 0 auto;
+      min-height: 450px;
+      object-fit: contain;
+      max-height: 450px;
+    }
+    .themes{
+      img{
+        cursor: pointer;
+      }
+    }
+    .own{
+      margin-top: 10px;
+      span{
+        width: 100%;
+      }
+    }
+    .choose_btn{
+      margin-top: 10px;
+      .btn{
+        width: 100%;
+      }
+    }
   }
   .about{
     .list{

@@ -2,6 +2,9 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
+  @media( max-width : 768px ){
+    height: auto;
+  }
   .blur{
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1509252054023-980dd0df5222?ixlib=rb-0.3.5…EyMDd9&s=e2e4c3f…&auto=format&fit=crop&w=1189&q=80);
@@ -48,6 +51,9 @@
     .login-box-right{
       padding: 40px;
       @extend .login_form;
+      @media( max-width : 768px ){
+        padding: 10px;
+      }
     }
   }
   .signup-box{

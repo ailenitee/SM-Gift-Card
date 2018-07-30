@@ -20,9 +20,9 @@
         font-weight: 400;
         margin: 10px 15px;
         padding: 10px 5px;
-        color: $darkheadertext;
+        color: rgba(0, 0, 0, 0.5);
         &.active{
-          border-bottom: 2px solid;
+          border-bottom: 2px solid $darkheadertext;
         }
       }
     }
