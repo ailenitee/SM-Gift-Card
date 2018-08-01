@@ -4,7 +4,7 @@
   padding: 10px 15px!important;
   text-align: center;
   &:hover{
-    background-color: $button;
+    background-color: $button!important;
     color: #fff!important;
   }
 }
