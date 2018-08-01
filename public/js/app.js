@@ -35921,6 +35921,17 @@ window.Vue = __webpack_require__(36);
 //});
 $(function () {
   var referrer = document.referrer;
+  // $("button.navbar-toggler").click(function(){
+  //   if($("#navbarNavDropdown").hasClass('drop')){
+  //     $("#navbarNavDropdown").css('display','none!important');
+  //     $("#navbarNavDropdown").removeClass('drop');
+  //     $("#navbarNavDropdown").addClass('pull');
+  //   }else{
+  //     $("#navbarNavDropdown").css('display','block!important');
+  //     $("#navbarNavDropdown").removeClass('pull');
+  //     $("#navbarNavDropdown").addClass('drop');
+  //   }
+  // });
   $('.signup-content-box').css('display', 'none');
   $('#detailModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus');

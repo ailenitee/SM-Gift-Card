@@ -10459,6 +10459,18 @@ a:hover {
   height: 75px;
 }
 
+.navbar .navbar-toggler {
+  float: right;
+  border: none;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-toggler {
+    width: auto;
+  }
+}
+
 .navbar .navbar-brand {
   font-size: 21px;
   color: #116DB6;
@@ -10486,6 +10498,12 @@ a:hover {
   border-bottom: 2px solid #161d8e;
 }
 
+@media (max-width: 991px) {
+  .navbar .navbar-nav {
+    width: 100%;
+  }
+}
+
 .navbar.bg-gray {
   background-color: #fdfdff;
 }
@@ -10505,6 +10523,18 @@ a:hover {
 
   #navbarNavDropdown .nav-link.btn-border {
     color: #f2574f;
+  }
+
+  .collapse.show {
+    display: none !important;
+  }
+
+  .collapse.pull {
+    display: none !important;
+  }
+
+  .collapse.drop {
+    display: block !important;
   }
 }
 
@@ -10646,6 +10676,12 @@ a:hover {
   margin: 0 auto;
   display: block;
   width: 50%;
+}
+
+@media (max-width: 575px) {
+  .btn-center {
+    width: 100%;
+  }
 }
 
 .btn-group-toggle .btn {
@@ -11401,6 +11437,7 @@ input,
   .login-content .login-box .login-box-left img,
   .login-content .signup-box .login-box-left img {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 

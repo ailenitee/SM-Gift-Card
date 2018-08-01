@@ -1,6 +1,14 @@
 .navbar {
   margin-bottom: 0;
   height: 75px;
+  .navbar-toggler{
+    float: right;
+    border: none;
+    width: 100%;
+    @media( max-width : 991px ){
+      width: auto;
+    }
+  }
   .navbar-brand {
     font-size: 21px;
     color: $headertext;
@@ -26,11 +34,15 @@
         }
       }
     }
+    @media( max-width : 991px ){
+      width: 100%;
+    }
   }
   &.bg-gray{
     background-color: $lightnav;
   }
 }
+
 @media( max-width : 991px ){
   #navbarNavDropdown{
     z-index: 1;
@@ -39,11 +51,19 @@
     color: #fff!important;
     width: 100%;
     .nav-link{
-          color: #fff!important;
-          &.btn-border{
-            color: $button;
-          }
+      color: #fff!important;
+      &.btn-border{
+        color: $button;
+      }
     }
-
+  }
+  .collapse.show{
+      display: none!important;
+  }
+  .collapse.pull{
+      display: none!important;
+  }
+  .collapse.drop{
+      display: block!important;
   }
 }
