@@ -86,6 +86,16 @@
               color: #999;
               border: 2px solid #999;
             }
+            @media( max-width : 767px ){
+              width: 50px;
+              height: 50px;
+              line-height: 50px;
+            }
+            @media( max-width : 479px ){
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+            }
           }
         }
       }
@@ -163,6 +173,14 @@ p.narrow{
   margin: 20px auto;
   border-radius: 100%;
   padding: 0;
+  @media( max-width : 767px ){
+    width: 50px;
+    height: 50px;
+  }
+  @media( max-width : 479px ){
+    width: 30px;
+    height: 30px; 
+  }
 }
 .nav-tabs > li a:hover{
   background: transparent;

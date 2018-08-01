@@ -10832,6 +10832,22 @@ a:hover {
   border: 2px solid #999;
 }
 
+@media (max-width: 767px) {
+  .board .nav-tabs li a span.round-tabs {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 479px) {
+  .board .nav-tabs li a span.round-tabs {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
 .board .nav-tabs li.active span.one {
   background: #fff !important;
   border: 2px solid #ddd !important;
@@ -10914,6 +10930,20 @@ p.narrow {
   margin: 20px auto;
   border-radius: 100%;
   padding: 0;
+}
+
+@media (max-width: 767px) {
+  .nav-tabs > li a {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 479px) {
+  .nav-tabs > li a {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .nav-tabs > li a:hover {
@@ -11362,6 +11392,20 @@ input,
   width: 60%;
   margin: 0 auto;
   display: block;
+}
+
+@media (max-width: 767px) {
+  .messenger .col-md-4 img {
+    max-height: 300px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .messenger .col-md-4 img {
+    max-height: 250px;
+  }
 }
 
 .messenger .col-md-6 img {
