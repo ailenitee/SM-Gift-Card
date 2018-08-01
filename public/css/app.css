@@ -11546,6 +11546,13 @@ input,
   padding-top: 1px;
 }
 
+@media (max-width: 768px) {
+  .login-content .signup-box {
+    padding: 20px;
+    width: 95%;
+  }
+}
+
 .login-content .signup-content-box {
   display: none;
   opacity: 0;
