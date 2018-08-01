@@ -10834,17 +10834,17 @@ a:hover {
 
 @media (max-width: 767px) {
   .board .nav-tabs li a span.round-tabs {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
   }
 }
 
 @media (max-width: 479px) {
   .board .nav-tabs li a span.round-tabs {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
   }
 }
 
@@ -10934,15 +10934,15 @@ p.narrow {
 
 @media (max-width: 767px) {
   .nav-tabs > li a {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
   }
 }
 
 @media (max-width: 479px) {
   .nav-tabs > li a {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -10981,19 +10981,10 @@ p.narrow {
 
   span.round-tabs {
     font-size: 16px;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
   }
 
   .tab-content .head {
     font-size: 20px;
-  }
-
-  .nav-tabs > li a {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
   }
 
   .nav-tabs > li.active:after {
@@ -11398,7 +11389,7 @@ input,
   .messenger .col-md-4 img {
     max-height: 300px;
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 
